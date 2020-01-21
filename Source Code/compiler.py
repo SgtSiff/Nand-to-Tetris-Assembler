@@ -218,7 +218,7 @@ class MainWindow(QMainWindow):
         d.setWindowModality(Qt.ApplicationModal)
         d.setWindowFlag(Qt.WindowContextHelpButtonHint, False)
 
-        d.label = QLabel("<html><head/><body><p align=\"center\">Hack ASM Compiler v0.1</p><p align=\"center\">Joseph Roddis</p><p align=\"center\">2020</p><p align=\"center\"><a href=\"https://github.com/SgtSiff\"><span style=\" text-decoration: underline; color:#0000ff;\">https://github.com/SgtSiff</span></a></p></body></html>", parent=d)
+        d.label = QLabel("<html><head/><body><p align=\"center\">Hack ASM Compiler v0.1</p><p align=\"center\">Joseph Roddis</p><p align=\"center\">2020</p><p align=\"center\"><a href=\"github.com/SgtSiff/Nand-to-Tetris-Assembler\"><span style=\" text-decoration: underline; color:#0000ff;\">github.com/SgtSiff/Nand-to-Tetris-Assembler</span></a></p></body></html>", parent=d)
         d.label.setGeometry(QtCore.QRect(0, 0, 240, 120))
         font = QtGui.QFont()
         font.setKerning(True)
